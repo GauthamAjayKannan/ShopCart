@@ -1,0 +1,61 @@
+.card{
+    width:24%;
+    height:30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:2px solid rgb(168, 167, 167) ;
+    border-radius: 6px;
+    padding: .5rem;
+    box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
+}
+
+.card h3{
+    font-size: 1.1rem;
+}
+
+
+
+.card img{
+    width:60%;
+    height:25%;
+    flex:1;
+}
+
+.dressDetails{
+    text-align: center;
+    margin:.5rem;
+}
+
+.buttongroup{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:.5rem;
+    justify-content: center;
+    align-items: center;
+    margin:1rem auto;
+}
+
+
+@media screen and (max-width:1000px){
+    .card{
+        width:30%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .card{
+        width:45%;
+        height:30rem;
+    }
+
+    .card h3{
+        font-size: .7rem;
+    }
+
+    .card img{
+        height:auto;
+    }
+}

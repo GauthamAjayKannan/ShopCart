@@ -1,0 +1,25 @@
+.ShopSec{
+    padding:2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:.7rem;
+    width:78%;
+    margin: auto;
+}
+
+
+@media screen and (max-width:900px){
+    .ShopSec{
+        width:90%;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:500px){
+    .ShopSec{
+        width:100%;
+        padding:1rem;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,25 @@
+.mainSec{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 4rem;
+}
+
+.mainSec div{
+    margin:3rem auto;
+}
+
+#category{
+    padding: .5rem;
+    margin-top: 1rem;
+    font:inherit;
+    border-radius: 6px;
+    width:10rem;
+    border: transparent;
+}
+
+#category :hover{
+    color:white;
+    background-color: black;
+    cursor: pointer;
+}

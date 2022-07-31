@@ -1,0 +1,115 @@
+.mode{
+    width:100%;
+    height: 100vh;
+    background-color: rgb(0,0,0,0.5);
+    position: fixed;
+    z-index: 1; 
+}
+
+.item-mode{
+    width:80%;
+    height:90%;
+    background-color: aliceblue;
+    margin:2rem auto;
+    display: flex;
+    padding:2rem;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.item-mode img{
+    width:40%;
+    height:30rem;
+}
+
+.item-details{
+    display: flex;
+    flex-direction: column;
+    margin:2rem;
+}
+
+.desc{
+    margin:2rem auto;
+}
+
+.price{
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.itemStatus {
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: bold;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.modalbuttongroup{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+
+@media screen and (max-width:900px){
+    .itemStatus{
+        font-size: 1.2rem;
+        flex-direction: column;
+    }
+
+    .modalbuttongroup{
+        flex-direction: column;
+    }
+
+    .modalbuttongroup button{
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width:500px){
+    .item-mode{
+        width:90%;
+        padding:1rem;
+        flex-direction: column;
+    }
+
+    .item-mode img{
+        width:60%;
+        height:30%;
+    }
+
+    .item-details{
+       margin: .5rem;
+    }
+
+    .item-details h3{
+        font-size: .9rem;
+    }
+
+    .desc{
+        margin:.3rem auto;
+        font-size: .7rem;
+    }
+
+    .price{
+        margin: .3rem 0;
+    }
+
+    .itemStatus p{
+        margin-bottom: .3rem;
+    }
+
+    .modalbuttongroup{
+        margin-top:0;
+        flex-direction: row;
+    }
+
+    .modalbuttongroup button{
+        margin-top: .2rem;
+        width:30%;
+    }
+    
+}
